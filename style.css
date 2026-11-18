@@ -1,0 +1,132 @@
+
+body {
+    background-color: #f1f4f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+#timeline {
+    width: 600px;
+    margin: 20px auto;
+}
+
+/* Header */
+#header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    min-height: 75px;
+    box-sizing: border-box;
+}
+
+#me {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    float: right;
+    margin-left: 15px;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 27px;
+}
+
+h3 {
+    margin: 8px 0 0;
+    color: #c9e2ff;
+}
+
+/* All three sections */
+.stage {
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 15px;
+    min-height: 145px;
+    border: 2px solid #444;
+    border-left: 10px solid;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px lightgray;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+/* Past */
+#past {
+    width: 100%;
+    margin-left: 0;
+    background-color: #fff7df;
+    border-left-color: #e6a700;
+}
+
+#past h2 {
+    color: #a87500;
+}
+
+/* Present */
+#present {
+    width: calc(100% - 40px);
+    margin-left: 40px;
+    background-color: #e4f5eb;
+    border-left-color: #26965b;
+}
+
+#present h2 {
+    color: #197343;
+}
+
+/* Future */
+#future {
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    background-color: #f1e8fa;
+    border: 2px dashed #7545a0;
+    border-left: 10px solid #7545a0;
+}
+
+#future h2 {
+    color: #7545a0;
+}
+
+/* Years */
+.year {
+    display: inline-block;
+    width: 110px;
+    padding: 7px;
+    margin: 0 0 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Facts and Goals */
+.fact, .goal {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 130px;
+    min-height: 65px;
+    padding: 12px 8px;
+    margin: 0 5px 0 0;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Hover effect */
+.fact:hover, .goal:hover {
+    background-color: #eaf0f8;
+}
